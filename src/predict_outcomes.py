@@ -2,8 +2,9 @@ import numpy as np
 import os.path
 import pandas as pd
 from sklearn.linear_model import ElasticNet
+from sklearn.ensemble import GradientBoostingRegressor
 
-data_folder = r'C:\GitRepository\HousePrices\data'
+data_folder = r'C:\GitRepository\kaggle-house-prices\data'
 path_test = os.path.join(data_folder, 'test.csv')
 test_data = pd.read_csv(path_test)
 

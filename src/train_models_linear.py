@@ -3,7 +3,7 @@ import os.path
 from sklearn.cross_validation import cross_val_score
 from sklearn.linear_model import LinearRegression, Ridge, Lasso, ElasticNet
 
-data_folder = r'C:\GitRepository\HousePrices\data'
+data_folder = r'C:\GitRepository\kaggle-house-prices\data'
 
 X = np.load(os.path.join(data_folder, 'features_train.npy'))
 y = np.load(os.path.join(data_folder, 'outcome.npy'))
